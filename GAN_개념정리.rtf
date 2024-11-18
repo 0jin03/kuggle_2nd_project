@@ -1,0 +1,2860 @@
+{\rtf1\ansi\ansicpg949\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset129 AppleSDGothicNeo-Regular;\f2\froman\fcharset0 Times-Roman;
+\f3\fnil\fcharset129 AppleMyungjo;\f4\froman\fcharset0 Times-Bold;\f5\froman\fcharset0 TimesNewRomanPS-BoldMT;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid201\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid301\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid401\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid8}
+{\list\listtemplateid9\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid801\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid9}
+{\list\listtemplateid10\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid901\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid10}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}{\listoverride\listid9\listoverridecount0\ls9}{\listoverride\listid10\listoverridecount0\ls10}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16440\viewh11920\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 **
+\f1 \'bd\'c3\'b1\'d7\'b8\'f0\'c0\'cc\'b5\'e5
+\f0  
+\f1 \'c7\'d4\'bc\'f6
+\f0 (Sigmoid function)**
+\f1 \'b4\'c2
+\f0  
+\f1 \'c1\'d6\'b7\'ce
+\f0  
+\f1 \'bd\'c5\'b0\'e6\'b8\'c1\'bf\'a1\'bc\'ad
+\f0  
+\f1 \'c3\'e2\'b7\'c2\'b0\'aa\'c0\'bb
+\f0  0
+\f1 \'b0\'fa
+\f0  1 
+\f1 \'bb\'e7\'c0\'cc\'b7\'ce
+\f0  
+\f1 \'be\'d0\'c3\'e0\'c7\'cf\'b4\'c2
+\f0  
+\f1 \'b5\'a5
+\f0  
+\f1 \'bb\'e7\'bf\'eb\'b5\'c7\'b4\'c2
+\f0  
+\f1 \'c7\'d4\'bc\'f6\'c0\'d4\'b4\'cf\'b4\'d9
+\f0 . = 
+\f1 \'b7\'ce\'c1\'f6\'bd\'ba\'c6\'bd
+\f0  
+\f1 \'c7\'d4\'bc\'f6
+\f0 \
+\
+\
+-> 
+\f1 \'bc\'d5\'bd\'c7
+\f0  
+\f1 \'c7\'d4\'bc\'f6
+\f0 \
+
+\f1 \'c0\'cc\'c1\'f8
+\f0  
+\f1 \'c5\'a9\'b7\'ce\'bd\'ba
+\f0  
+\f1 \'bf\'a3\'c6\'ae\'b7\'ce\'c7\'c7
+\f0  (Binary Cross-Entropy)
+\f1 \'b4\'c2
+\f0  
+\f1 \'c0\'cc\'c1\'f8
+\f0  
+\f1 \'ba\'d0\'b7\'f9
+\f0  
+\f1 \'b9\'ae\'c1\'a6\'bf\'a1\'bc\'ad
+\f0  
+\f1 \'b8\'f0\'b5\'a8\'c0\'c7
+\f0  
+\f1 \'bf\'b9\'c3\'f8
+\f0  
+\f1 \'b0\'e1\'b0\'fa\'b0\'a1
+\f0  
+\f1 \'be\'f3\'b8\'b6\'b3\'aa
+\f0  
+\f1 \'c1\'a4\'c8\'ae\'c7\'d1\'c1\'f6
+\f0  
+\f1 \'c6\'f2\'b0\'a1\'c7\'cf\'b4\'c2
+\f0  
+\f1 \'bc\'d5\'bd\'c7
+\f0  
+\f1 \'c7\'d4\'bc\'f6\'c0\'d4\'b4\'cf\'b4\'d9
+\f0 . 
+\f1 \'b8\'f0\'b5\'a8\'c0\'cc
+\f0  
+\f1 \'bf\'b9\'c3\'f8\'c7\'d1
+\f0  
+\f1 \'b0\'aa\'b0\'fa
+\f0  
+\f1 \'bd\'c7\'c1\'a6
+\f0  
+\f1 \'b0\'aa
+\f0  
+\f1 \'bb\'e7\'c0\'cc\'c0\'c7
+\f0  
+\f1 \'c2\'f7\'c0\'cc\'b8\'a6
+\f0  
+\f1 \'c3\'f8\'c1\'a4\'c7\'d5\'b4\'cf\'b4\'d9
+\f0 .\
+
+\f1 \'b0\'a3\'b4\'dc\'c8\'f7
+\f0  
+\f1 \'b8\'bb\'c7\'cf\'b8\'e9
+\f0 , 
+\f1 \'b8\'f0\'b5\'a8\'c0\'cc
+\f0  
+\f1 \'be\'f3\'b8\'b6\'b3\'aa
+\f0  
+\f1 \'c0\'df
+\f0  
+\f1 \'bf\'b9\'c3\'f8\'c7\'df\'b4\'c2\'c1\'f6
+\f0 , 
+\f1 \'b6\'c7\'b4\'c2
+\f0  
+\f1 \'be\'f3\'b8\'b6\'b3\'aa
+\f0  
+\f1 \'c6\'b2\'b7\'c8\'b4\'c2\'c1\'f6\'b8\'a6
+\f0  
+\f1 \'bc\'fd\'c0\'da\'b7\'ce
+\f0  
+\f1 \'c7\'a5\'c7\'f6\'c7\'d8\'c1\'d6\'b4\'c2
+\f0  
+\f1 \'c1\'f6\'c7\'a5\'c0\'d4\'b4\'cf\'b4\'d9
+\f0 .\
+
+\f1 \'c1\'ef
+\f0 , 
+\f1 \'c0\'cc\'c1\'f8
+\f0  
+\f1 \'c5\'a9\'b7\'ce\'bd\'ba
+\f0  
+\f1 \'bf\'a3\'c6\'ae\'b7\'ce\'c7\'c7\'b4\'c2
+\f0  
+\f1 \'bd\'c7\'c1\'a6\'b0\'aa\'bf\'a1
+\f0  
+\f1 \'b8\'c2\'b4\'c2
+\f0  
+\f1 \'c8\'ae\'b7\'fc\'c0\'cc
+\f0  
+\f1 \'b3\'f4\'c0\'bb\'bc\'f6\'b7\'cf
+\f0  
+\f1 \'bc\'d5\'bd\'c7\'c0\'cc
+\f0  
+\f1 \'c0\'fb\'b0\'ed
+\f0 , 
+\f1 \'b8\'f0\'b5\'a8\'c0\'c7
+\f0  
+\f1 \'bf\'b9\'c3\'f8\'c0\'cc
+\f0  
+\f1 \'c0\'df\'b8\'f8\'b5\'c9\'bc\'f6\'b7\'cf
+\f0  
+\f1 \'bc\'d5\'bd\'c7\'c0\'cc
+\f0  
+\f1 \'c4\'bf\'c1\'f6\'b4\'c2
+\f0  
+\f1 \'b1\'b8\'c1\'b6\'b7\'ce
+\f0  
+\f1 \'b5\'c7\'be\'ee
+\f0  
+\f1 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f0 .\
+
+\f1 \'c0\'cc\'c1\'f8
+\f0  
+\f1 \'ba\'d0\'b7\'f9\'bf\'a1\'bc\'ad
+\f0  
+\f1 \'bf\'b9\'c3\'f8\'c7\'d1
+\f0  
+\f1 \'b0\'aa\'c0\'cc
+\f0  
+\f1 \'bd\'c7\'c1\'a6
+\f0  
+\f1 \'b0\'aa\'b0\'fa
+\f0  
+\f1 \'be\'f3\'b8\'b6\'b3\'aa
+\f0  
+\f1 \'c2\'f7\'c0\'cc\'b0\'a1
+\f0  
+\f1 \'b3\'aa\'b4\'c2\'c1\'f6
+\f0  
+\f1 \'c6\'f2\'b0\'a1\'c7\'cf\'b4\'c2
+\f0  
+\f1 \'c7\'d4\'bc\'f6\'c0\'d4\'b4\'cf\'b4\'d9
+\f0 .\
+
+\f1 \'b0\'aa\'c0\'cc
+\f0  
+\f1 \'c0\'db\'c0\'bb\'bc\'f6\'b7\'cf
+\f0  
+\f1 \'bf\'b9\'c3\'f8\'c0\'cc
+\f0  
+\f1 \'c1\'a4\'c8\'ae\'c7\'cf\'b0\'ed
+\f0 , 
+\f1 \'b0\'aa\'c0\'cc
+\f0  
+\f1 \'c5\'ac\'bc\'f6\'b7\'cf
+\f0  
+\f1 \'bf\'b9\'c3\'f8\'c0\'cc
+\f0  
+\f1 \'ba\'ce\'c1\'a4\'c8\'ae\'c7\'d4\'c0\'bb
+\f0  
+\f1 \'b3\'aa\'c5\'b8\'b3\'c0\'b4\'cf\'b4\'d9
+\f0 .\
+\
+\'97\'97\'97\'97\'97\'97\
+https://ffighting.net/deep-learning-paper-review/anomaly-detection/ganomaly/\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2 \cf0 \expnd0\expndtw0\kerning0
+GANomaly
+\f0 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2 \cf0 \expnd0\expndtw0\kerning0
+"GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training"
+\f3 \'c0\'ba
+\f2  
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'c5\'bd\'c1\'f6
+\f2 (Anomaly Detection)
+\f3 \'b8\'a6
+\f2  
+\f3 \'c0\'a7\'c7\'d1
+\f2  
+\f3 \'bb\'f5\'b7\'ce\'bf\'ee
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'bb
+\f2  
+\f3 \'c1\'a6\'bd\'c3\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b3\'ed\'b9\'ae\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'ba
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c0\'fb
+\f4\b  
+\f3\b0 \'c0\'fb\'b4\'eb
+\f4\b  
+\f3\b0 \'bd\'c5\'b0\'e6\'b8\'c1
+\f2 (GAN, Generative Adversarial Networks)
+\f3 \'c0\'bb
+\f2  
+\f3 \'c8\'b0\'bf\'eb\'c7\'cf\'bf\'a9
+\f2 , 
+\f3 \'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b7\'ce\'ba\'ce\'c5\'cd
+\f2  
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3\'c0\'fb\'c0\'ce
+\f4\b  
+\f3\b0 \'c6\'d0\'c5\'cf\'c0\'bb
+\f2  
+\f3 \'c3\'a3\'be\'c6\'b3\'bb\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'bd\'c4\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 .\
+
+\f3 \'b3\'ed\'b9\'ae\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c1\'a6\'bd\'c3\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'c1\'d6\'bf\'e4
+\f2  
+\f3 \'be\'c6\'c0\'cc\'b5\'f0\'be\'ee\'b4\'c2
+\f2  
+\f3 \'b5\'ce
+\f2  
+\f3 \'b0\'a1\'c1\'f6\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f4\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}
+\f3\b0 \expnd0\expndtw0\kerning0
+\'b9\'dd\'c1\'f6\'b5\'b5
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0
+\f4\b (Semi-Supervised Learning)
+\f2\b0 : 
+\f3 \'b4\'eb\'ba\'ce\'ba\'d0\'c0\'c7
+\f2  
+\f3 \'b1\'e2\'c1\'b8
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'b5\'e9\'c0\'ba
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'b1\'e2\'c1\'d8\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'c3\'a3\'c0\'b8\'b7\'c1\'b8\'e9
+\f2  
+\f3 \'b6\'f3\'ba\'a7\'b8\'b5\'b5\'c8
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1
+\f2  
+\f3 \'b8\'b9\'c0\'cc
+\f2  
+\f3 \'c7\'ca\'bf\'e4\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c7\'cf\'c1\'f6\'b8\'b8
+\f2  GANomaly
+\f3 \'b4\'c2
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'b8
+\f4\b  
+\f3\b0 \'b0\'a1\'c1\'f6\'b0\'ed
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'cf\'b8\'e9\'bc\'ad
+\f2 , 
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'c3\'a3\'be\'c6\'b3\'be
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'b6\'f3\'ba\'a7\'c0\'cc
+\f2  
+\f3 \'be\'f8\'b4\'c2
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b5\'b5
+\f2  
+\f3 \'c0\'df
+\f2  
+\f3 \'c3\'b3\'b8\'ae\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'b4\'d9\'b4\'c2
+\f2  
+\f3 \'c0\'e5\'c1\'a1\'c0\'cc
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\ls1\ilvl0
+\f4\b \kerning1\expnd0\expndtw0 {\listtext	2	}
+\f3\b0 \expnd0\expndtw0\kerning0
+\'c0\'fb\'b4\'eb\'c0\'fb
+\f4\b  
+\f3\b0 \'c8\'c6\'b7\'c3
+\f4\b (Adversarial Training)
+\f2\b0 : GAN
+\f3 \'c0\'c7
+\f2  
+\f3 \'b1\'e2\'ba\'bb
+\f2  
+\f3 \'be\'c6\'c0\'cc\'b5\'f0\'be\'ee\'b4\'c2
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c0\'da
+\f2 (Generator)
+\f3 \'bf\'cd
+\f2  
+\f3 \'c6\'c7\'ba\'b0\'c0\'da
+\f2 (Discriminator)
+\f3 \'b0\'a1
+\f2  
+\f3 \'bc\'ad\'b7\'ce
+\f2  
+\f3 \'b0\'e6\'c0\'ef\'c7\'cf\'b8\'e7
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . GANomaly
+\f3 \'b4\'c2
+\f2  
+\f3 \'c0\'cc
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'c0\'bb
+\f2  
+\f3 \'c8\'b0\'bf\'eb\'c7\'d8
+\f2 , 
+\f3 \'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'cf\'b0\'ed
+\f2  
+\f3 \'b1\'d7
+\f2  
+\f3 \'c2\'f7\'c0\'cc\'b8\'a6
+\f2  
+\f3 \'ba\'d0\'bc\'ae\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'c3\'a3\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'bb\'fd\'bc\'ba\'c0\'da\'b4\'c2
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'cf\'b7\'c1\'b0\'ed
+\f2  
+\f3 \'c7\'cf\'b0\'ed
+\f2 , 
+\f3 \'c6\'c7\'ba\'b0\'c0\'da\'b4\'c2
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'cd
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'b5\'c8
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'b1\'b8\'ba\'b0\'c7\'cf\'b7\'c1\'b0\'ed
+\f2  
+\f3 \'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3 \cf0 \'ba\'ce\'bf\'ac
+\f4\b  
+\f3\b0 \'bc\'b3\'b8\'ed
+\f2 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f4\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+GAN (Generative Adversarial Networks)
+\f2\b0 : 
+\f3 \'b5\'ce
+\f2  
+\f3 \'bd\'c5\'b0\'e6\'b8\'c1\'c0\'cc
+\f2  
+\f3 \'bc\'ad\'b7\'ce
+\f2  
+\f3 \'b0\'e6\'c0\'ef\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'bd\'c4\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b8\'f0\'b5\'a8\'b7\'ce
+\f2 , 
+\f3 \'c7\'cf\'b3\'aa\'b4\'c2
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'cf\'b0\'ed
+\f2 , 
+\f3 \'b4\'d9\'b8\'a5
+\f2  
+\f3 \'c7\'cf\'b3\'aa\'b4\'c2
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'b5\'c8
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1
+\f2  
+\f3 \'c1\'f8\'c2\'a5\'c0\'ce\'c1\'f6
+\f2  
+\f3 \'b0\'a1\'c2\'a5\'c0\'ce\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'c6\'c7\'ba\'b0\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\ls2\ilvl0
+\f4\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Semi-Supervised Learning
+\f2\b0 : 
+\f3 \'c0\'cf\'ba\'ce\'b8\'b8
+\f2  
+\f3 \'b7\'b9\'c0\'cc\'ba\'ed\'c0\'cc
+\f2  
+\f3 \'c0\'d6\'b4\'c2
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b7\'ce
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'b8\'b7\'ce
+\f2 , 
+\f3 \'b7\'b9\'c0\'cc\'ba\'ed\'c0\'cc
+\f2  
+\f3 \'be\'f8\'b4\'c2
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b5\'b5
+\f2  
+\f3 \'c0\'df
+\f2  
+\f3 \'c8\'b0\'bf\'eb\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3 \cf0 \'c0\'cc
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'ba
+\f2  
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'bd\'c4\'ba\'b0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b5\'a5
+\f2  
+\f3 \'c0\'d6\'be\'ee\'bc\'ad
+\f2 , 
+\f3 \'c7\'d0\'bd\'c0
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'b4\'eb\'ba\'ce\'ba\'d0\'c0\'c7
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'b8
+\f2  
+\f3 \'bb\'e7\'bf\'eb\'c7\'cf\'b0\'ed
+\f2 , 
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b4\'c2
+\f2  
+\f3 \'b5\'fb\'b7\'ce
+\f2  
+\f3 \'b6\'f3\'ba\'a7\'b8\'b5\'c7\'d2
+\f2  
+\f3 \'c7\'ca\'bf\'e4\'b0\'a1
+\f2  
+\f3 \'be\'f8\'b4\'d9\'b4\'c2
+\f2  
+\f3 \'c1\'a1\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'b8\'c5\'bf\'ec
+\f2  
+\f3 \'c8\'bf\'c0\'b2\'c0\'fb\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 .\
+
+\f4\b Supervised learning
+\f2\b0  
+\f3 \'b1\'e2\'b9\'dd\'c0\'c7
+\f2  
+\f4\b Anomaly Detection
+\f2\b0  
+\f3 \'b9\'e6\'b9\'fd\'c0\'ba
+\f2  
+\f3 \'b8\'ee
+\f2  
+\f3 \'b0\'a1\'c1\'f6
+\f2  
+\f3 \'c4\'a1\'b8\'ed\'c0\'fb\'c0\'ce
+\f4\b  
+\f3\b0 \'b4\'dc\'c1\'a1\'c0\'cc
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'bf\'b9\'b8\'a6
+\f2  
+\f3 \'b5\'e9\'be\'ee
+\f2 , 
+\f3 \'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'cd
+\f2  
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd
+\f2  
+\f3 \'b8\'f0\'b5\'ce\'bf\'a1
+\f2  
+\f3 \'b4\'eb\'c7\'d1
+\f2  
+\f3 \'b6\'f3\'ba\'a7\'b8\'b5\'c0\'cc
+\f2  
+\f3 \'c7\'ca\'bf\'e4\'c7\'cf\'b0\'ed
+\f2 , 
+\f3 \'c0\'cc\'b4\'c2
+\f2  
+\f3 \'bd\'c7\'c7\'e8
+\f2  
+\f3 \'c8\'af\'b0\'e6\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c5\'ab
+\f2  
+\f3 \'ba\'ce\'b4\'e3\'c0\'cc
+\f2  
+\f3 \'b5\'cb\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'bf\'a9\'b1\'e2\'bc\'ad
+\f2  
+\f4\b Supervised learning
+\f3\b0 \'c0\'ba
+\f2  
+\f3 \'c7\'d0\'bd\'c0
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1
+\f2  **
+\f3 \'c1\'a4\'b4\'e4
+\f2 (
+\f3 \'b6\'f3\'ba\'a7
+\f2 )**
+\f3 \'c0\'cc
+\f2  
+\f3 \'c1\'d6\'be\'ee\'c1\'f8
+\f2  
+\f3 \'bb\'f3\'c5\'c2\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'b8\'f0\'b5\'a8\'c0\'cc
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c0\'bb
+\f2  
+\f3 \'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c1\'ef
+\f2 , 
+\f3 \'b8\'f0\'b5\'a8\'c0\'ba
+\f2  
+\f3 \'c1\'a4\'b4\'e4\'c0\'bb
+\f2  
+\f3 \'be\'cb\'b0\'ed
+\f2  
+\f3 \'c0\'d6\'b4\'c2
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'b1\'e2\'b9\'dd\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+
+\f3 \'b5\'fb\'b6\'f3\'bc\'ad
+\f2  
+\f4\b Unsupervised learning
+\f2\b0  
+\f3 \'b1\'e2\'b9\'dd\'c0\'c7
+\f2  
+\f4\b Anomaly Detection
+\f2\b0  
+\f3 \'b9\'e6\'b9\'fd\'c0\'cc
+\f2  
+\f3 \'bf\'e4\'b1\'b8\'b5\'cb\'b4\'cf\'b4\'d9
+\f2 . 
+\f4\b Unsupervised learning
+\f3\b0 \'c0\'ba
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1
+\f2  **
+\f3 \'c1\'a4\'b4\'e4
+\f2 (
+\f3 \'b6\'f3\'ba\'a7
+\f2 )**
+\f3 \'c0\'cc
+\f2  
+\f3 \'c1\'d6\'be\'ee\'c1\'f6\'c1\'f6
+\f2  
+\f3 \'be\'ca\'b0\'ed
+\f2 , 
+\f3 \'b8\'f0\'b5\'a8\'c0\'cc
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7
+\f2  
+\f3 \'c6\'d0\'c5\'cf\'c0\'bb
+\f2  
+\f3 \'bd\'ba\'bd\'ba\'b7\'ce
+\f2  
+\f3 \'c3\'a3\'be\'c6\'b3\'bb\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc\'b7\'af\'c7\'d1
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'ba
+\f2  **
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd
+\f2 (Anomaly)**
+\f3 \'b8\'a6
+\f2  
+\f3 \'c3\'a3\'b4\'c2
+\f2  
+\f3 \'b5\'a5
+\f2  
+\f3 \'c8\'bf\'b0\'fa\'c0\'fb\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 .\
+
+\f4\b AnoGAN
+\f3\b0 \'b0\'fa
+\f2  
+\f3 \'b0\'b0\'c0\'ba
+\f2  
+\f3 \'b1\'e2\'c1\'b8
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'b5\'e9\'c0\'ba
+\f2  
+\f3 \'b5\'ce
+\f2  
+\f3 \'b4\'dc\'b0\'e8\'b7\'ce
+\f2  
+\f3 \'b3\'aa\'b4\'a9\'be\'ee
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c0\'bb
+\f2  
+\f3 \'c7\'d8\'be\'df
+\f2  
+\f3 \'c7\'d1\'b4\'d9\'b4\'c2
+\f2  
+\f3 \'b4\'dc\'c1\'a1\'c0\'cc
+\f2  
+\f3 \'c0\'d6\'be\'fa\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b9\'ae\'c1\'a6\'b8\'a6
+\f2  
+\f3 \'c7\'d8\'b0\'e1\'c7\'cf\'b1\'e2
+\f2  
+\f3 \'c0\'a7\'c7\'d8
+\f2 , 
+\f3 \'c0\'fa\'c0\'da\'b5\'e9\'c0\'ba
+\f2  
+\f4\b 1
+\f3\b0 \'b4\'dc\'b0\'e8\'b8\'b8\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'b4\'c2
+\f2  
+\f4\b GANomaly
+\f3\b0 \'b6\'f3\'b4\'c2
+\f2  
+\f3 \'bb\'f5\'b7\'ce\'bf\'ee
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'bb
+\f2  
+\f3 \'c1\'a6\'be\'c8\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f4\b GANomaly
+\f3\b0 \'b4\'c2
+\f2  **Generative Adversarial Networks(GAN)**
+\f3 \'c0\'bb
+\f2  
+\f3 \'b1\'e2\'b9\'dd\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'c7\'cf\'bf\'a9
+\f2 , 
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'b4\'f5
+\f2  
+\f3 \'c1\'a4\'c8\'ae\'c7\'cf\'b0\'d4
+\f2  
+\f3 \'c5\'bd\'c1\'f6\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'b5\'b5\'b7\'cf
+\f2  
+\f3 \'b5\'bd\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'bf\'a9\'b1\'e2\'bc\'ad
+\f2  
+\f4\b GAN
+\f3\b0 \'c0\'ba
+\f2  **
+\f3 \'bb\'fd\'bc\'ba\'c0\'da
+\f2 (Generator)**
+\f3 \'bf\'cd
+\f2  **
+\f3 \'c6\'c7\'ba\'b0\'c0\'da
+\f2 (Discriminator)**
+\f3 \'b0\'a1
+\f2  
+\f3 \'bc\'ad\'b7\'ce
+\f2  
+\f3 \'b0\'e6\'c0\'ef\'c7\'cf\'b8\'e9\'bc\'ad
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b5\'f6\'b7\'af\'b4\'d7
+\f4\b (Deep Learning)
+\f2\b0  
+\f3 \'b8\'f0\'b5\'a8\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . 
+\f4\b GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f3 \'c0\'cc
+\f2  
+\f3 \'b1\'b8\'c1\'b6\'b8\'a6
+\f2  
+\f3 \'c8\'b0\'bf\'eb\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'c3\'a3\'be\'c6\'b3\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+
+\f3 \'bd\'c7\'c7\'e8
+\f4\b  
+\f3\b0 \'b0\'e1\'b0\'fa
+\f2  
+\f3 \'bf\'a9\'b7\'af
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'bc\'c2\'bf\'a1\'bc\'ad
+\f2  
+\f4\b GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f4\b Anomaly Detection
+\f3\b0 \'c0\'bb
+\f2  
+\f3 \'c0\'a7\'c7\'d1
+\f2  
+\f4\b GAN 
+\f3\b0 \'b1\'b8\'c1\'b6
+\f2  
+\f3 \'b1\'e2\'b9\'dd
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'b5\'e9
+\f2  
+\f3 \'c1\'df\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'b0\'a1\'c0\'e5
+\f2  
+\f3 \'b3\'f4\'c0\'ba
+\f4\b  
+\f3\b0 \'bc\'ba\'b4\'c9\'c0\'bb
+\f2  
+\f3 \'ba\'b8\'bf\'b4\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f4\b Anomaly Detection
+\f3\b0 \'c0\'ba
+\f2  
+\f3 \'bd\'c3\'bd\'ba\'c5\'db\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c1\'a4\'bb\'f3\'c0\'fb\'c0\'ce
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'cd
+\f2  
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3\'c0\'fb\'c0\'ce
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'b1\'b8\'ba\'d0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b9\'ae\'c1\'a6\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . **
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd
+\f2 (Anomaly)**
+\f3 \'b6\'f5
+\f2  
+\f3 \'bf\'b9\'c3\'f8\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'be\'f8\'b0\'c5\'b3\'aa
+\f2  
+\f3 \'bf\'b9\'bf\'dc\'c0\'fb\'c0\'ce
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b7\'ce
+\f2 , 
+\f3 \'ba\'b8\'c5\'eb
+\f2  
+\f3 \'bf\'c0\'b7\'f9\'b3\'aa
+\f2  
+\f3 \'c0\'cc\'bb\'f3
+\f2  
+\f3 \'bb\'f3\'c8\'b2\'c0\'bb
+\f2  
+\f3 \'b3\'aa\'c5\'b8\'b3\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'ba
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'b8\'c0\'b8\'b7\'ce
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c7\'cf\'b0\'ed
+\f2 , 
+\f3 \'ba\'b0\'b5\'b5\'c0\'c7
+\f2  
+\f3 \'b6\'f3\'ba\'a7\'b8\'b5
+\f2  
+\f3 \'be\'f8\'c0\'cc
+\f2  
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'c8\'bf\'c0\'b2\'c0\'fb\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'c3\'a3\'be\'c6\'b3\'be
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'b4\'d9\'b4\'c2
+\f2  
+\f3 \'c0\'e5\'c1\'a1\'c0\'cc
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f4\b\fs28 \cf0 1-1. Supervised Learning 
+\f3\b0 \'b9\'e6\'bd\'c4\'c0\'c7
+\f4\b  
+\f3\b0 \'b9\'ae\'c1\'a6\'c1\'a1
+\f4\b \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 GANomaly
+\f3\b0 \'b4\'c2
+\f2  2018
+\f3 \'b3\'e2\'bf\'a1
+\f2  
+\f3 \'c1\'a6\'be\'c8\'b5\'c8
+\f2  
+\f4\b unsupervised learning
+\f2\b0  
+\f3 \'b1\'e2\'b9\'dd\'c0\'c7
+\f2  
+\f4\b Anomaly Detection
+\f2\b0  
+\f3 \'b9\'e6\'b9\'fd\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'b1\'d7
+\f2  
+\f3 \'c0\'cc\'c0\'fc\'b1\'ee\'c1\'f6\'b4\'c2
+\f2  
+\f3 \'b4\'eb\'ba\'ce\'ba\'d0
+\f2  
+\f4\b supervised learning
+\f2\b0  
+\f3 \'b9\'e6\'bd\'c4\'c0\'cc
+\f2  
+\f3 \'bb\'e7\'bf\'eb\'b5\'c7\'be\'fa\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f4\b Supervised learning
+\f3\b0 \'c0\'ba
+\f2  
+\f3 \'c1\'a4\'bb\'f3\'b0\'fa
+\f2  
+\f3 \'ba\'f1\'c1\'a4\'bb\'f3
+\f4\b (
+\f3\b0 \'ba\'d2\'b7\'ae
+\f4\b )
+\f2\b0  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'ba\'d2\'b7\'ae\'c0\'bb
+\f2  
+\f3 \'c0\'df
+\f2  
+\f3 \'c3\'a3\'be\'c6\'b3\'bb\'b4\'c2
+\f2  
+\f3 \'c0\'e5\'c1\'a1\'c0\'cc
+\f2  
+\f3 \'c0\'d6\'c1\'f6\'b8\'b8
+\f2 , 
+\f3 \'b5\'ce
+\f4\b  
+\f3\b0 \'b0\'a1\'c1\'f6
+\f4\b  
+\f3\b0 \'c4\'a1\'b8\'ed\'c0\'fb\'c0\'ce
+\f4\b  
+\f3\b0 \'b4\'dc\'c1\'a1\'c0\'cc
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls3\ilvl0
+\f4\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Labeling cost (
+\f3\b0 \'b6\'f3\'ba\'a7\'b8\'b5
+\f4\b  
+\f3\b0 \'ba\'f1\'bf\'eb
+\f4\b )
+\f2\b0 \uc0\u8232 
+\f4\b Supervised learning
+\f3\b0 \'bf\'a1\'bc\'ad\'b4\'c2
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1
+\f2  
+\f3 \'b6\'f3\'ba\'a7\'c0\'bb
+\f2  
+\f3 \'ba\'d9\'bf\'a9\'be\'df
+\f2  
+\f3 \'c7\'cf\'b4\'c2\'b5\'a5
+\f2 , 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c0\'fc\'b9\'ae
+\f4\b  
+\f3\b0 \'c1\'f6\'bd\'c4\'c0\'cc
+\f2  
+\f3 \'c7\'ca\'bf\'e4\'c7\'cf\'b0\'c5\'b3\'aa
+\f2  
+\f3 \'bd\'c3\'b0\'a3\'c0\'cc
+\f2  
+\f3 \'b8\'b9\'c0\'cc
+\f2  
+\f3 \'b0\'c9\'b8\'b1
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'bf\'b9\'b8\'a6
+\f2  
+\f3 \'b5\'e9\'be\'ee
+\f2 , 
+\f3 \'c0\'c7\'b7\'e1
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'b3\'aa
+\f2  
+\f3 \'bd\'ba\'b8\'b6\'c6\'ae
+\f4\b  
+\f3\b0 \'c6\'d1\'c5\'e4\'b8\'ae
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'b4\'c2
+\f2  
+\f3 \'c0\'fc\'b9\'ae
+\f4\b  
+\f3\b0 \'c1\'f6\'bd\'c4\'c0\'cc
+\f2  
+\f3 \'c7\'ca\'bf\'e4\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'ba\'f1\'bf\'eb\'c0\'cc
+\f2  
+\f3 \'b8\'b9\'c0\'cc
+\f2  
+\f3 \'b5\'ec\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc\'b7\'b1
+\f2  
+\f3 \'c8\'af\'b0\'e6\'bf\'a1\'bc\'ad\'b4\'c2
+\f2  
+\f3 \'b6\'f3\'ba\'a7\'b8\'b5\'c0\'cc
+\f2  
+\f3 \'be\'ee\'b7\'c1\'bf\'f6\'c1\'fd\'b4\'cf\'b4\'d9
+\f2 .\
+\ls3\ilvl0
+\f4\b \kerning1\expnd0\expndtw0 {\listtext	2	}
+\f3\b0 \expnd0\expndtw0\kerning0
+\'b9\'cc\'b9\'df\'b0\'df
+\f4\b  
+\f3\b0 \'ba\'d2\'b7\'ae
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd
+\f4\b  
+\f3\b0 \'c5\'bd\'c1\'f6
+\f4\b  
+\f3\b0 \'ba\'d2\'b0\'a1
+\f2 \uc0\u8232 
+\f4\b Supervised learning
+\f3\b0 \'c0\'ba
+\f2  
+\f3 \'c7\'d0\'bd\'c0
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1
+\f2  
+\f3 \'c0\'d6\'b4\'c2
+\f2  
+\f3 \'ba\'d2\'b7\'ae\'b8\'b8
+\f2  
+\f3 \'c0\'ce\'bd\'c4\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c1\'ef
+\f2 , 
+\f3 \'c7\'d0\'bd\'c0
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1
+\f2  
+\f3 \'be\'f8\'b4\'c2
+\f2  
+\f3 \'bb\'f5\'b7\'ce\'bf\'ee
+\f4\b  
+\f3\b0 \'c1\'be\'b7\'f9\'c0\'c7
+\f4\b  
+\f3\b0 \'ba\'d2\'b7\'ae\'c0\'ba
+\f2  
+\f3 \'b9\'df\'b0\'df\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'be\'f8\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c7\'cf\'c1\'f6\'b8\'b8
+\f2  
+\f3 \'bd\'c7\'c1\'a6
+\f4\b  
+\f3\b0 \'c8\'af\'b0\'e6\'bf\'a1\'bc\'ad\'b4\'c2
+\f2  
+\f3 \'bf\'b9\'b1\'e2\'c4\'a1
+\f2  
+\f3 \'b8\'f8\'c7\'d1
+\f2  
+\f3 \'ba\'d2\'b7\'ae\'c0\'cc
+\f2  
+\f3 \'b9\'df\'bb\'fd\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'be\'ee
+\f2 , 
+\f3 \'bf\'b9\'bb\'f3\'c4\'a1
+\f4\b  
+\f3\b0 \'b8\'f8\'c7\'d1
+\f4\b  
+\f3\b0 \'ba\'d2\'b7\'ae\'c0\'bb
+\f2  
+\f3 \'c3\'a3\'be\'c6\'b3\'bb\'b4\'c2
+\f2  
+\f3 \'b5\'a5
+\f2  
+\f3 \'c7\'d1\'b0\'e8\'b0\'a1
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3 \cf0 \'c0\'cc
+\f2  
+\f3 \'b5\'ce
+\f2  
+\f3 \'b0\'a1\'c1\'f6
+\f2  
+\f3 \'b4\'dc\'c1\'a1\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'c0\'ce\'c7\'d8
+\f2 , 
+\f4\b Unsupervised learning
+\f2\b0  
+\f3 \'b9\'e6\'bd\'c4\'c0\'c7
+\f2  
+\f4\b Anomaly Detection
+\f3\b0 \'c0\'cc
+\f2  
+\f3 \'c7\'ca\'bf\'e4\'c7\'cf\'b4\'d9\'b4\'c2
+\f2  
+\f3 \'c1\'d6\'c0\'e5\'c0\'cc
+\f2  
+\f3 \'c1\'a6\'b1\'e2\'b5\'c7\'be\'fa\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f4\b\fs28 \cf0 1-2. Unsupervised Learning 
+\f3\b0 \'b9\'e6\'bd\'c4\'c0\'c7
+\f4\b  
+\f3\b0 \'b9\'ae\'c1\'a6\'c1\'a1
+\f4\b \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b0\fs24 \cf0 \'b1\'d7\'b7\'b3
+\f2  
+\f3 \'b1\'e2\'c1\'b8\'c0\'c7
+\f2  
+\f4\b unsupervised learning
+\f2\b0  
+\f3 \'b9\'e6\'bd\'c4\'c0\'ba
+\f2  
+\f3 \'be\'ee\'b6\'b2
+\f2  
+\f3 \'b4\'dc\'c1\'a1\'c0\'cc
+\f2  
+\f3 \'c0\'d6\'c0\'bb\'b1\'ee\'bf\'e4
+\f2 ?\
+
+\f4\b AnoGAN
+\f3\b0 \'c0\'ba
+\f2  
+\f4\b unsupervised learning
+\f2\b0  
+\f3 \'b9\'e6\'bd\'c4\'c0\'c7
+\f2  
+\f4\b Anomaly Detection
+\f2\b0  
+\f3 \'b9\'e6\'b9\'fd\'c0\'b8\'b7\'ce
+\f2 , 
+\f4\b GAN
+\f3\b0 \'c0\'bb
+\f2  
+\f3 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f4\b Generator
+\f3\b0 \'b4\'c2
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'cf\'b0\'ed
+\f2 , 
+\f3 \'c5\'d7\'bd\'ba\'c6\'ae
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'bf\'cd
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'b5\'c8
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'ba\'f1\'b1\'b3\'c7\'cf\'bf\'a9
+\f2  
+\f4\b anomaly score
+\f3\b0 \'b8\'a6
+\f2  
+\f3 \'b0\'e8\'bb\'ea\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'bd\'c4\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c7\'cf\'c1\'f6\'b8\'b8
+\f2  
+\f4\b AnoGAN
+\f3\b0 \'bf\'a1\'b5\'b5
+\f2  
+\f3 \'b4\'dc\'c1\'a1\'c0\'cc
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+
+\f4\b AnoGAN
+\f3\b0 \'c0\'c7
+\f2  
+\f3 \'b9\'ae\'c1\'a6\'c1\'a1\'c0\'ba
+\f2  
+\f4\b 2
+\f3\b0 \'b4\'dc\'b0\'e8
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c0\'cc
+\f2  
+\f3 \'c7\'ca\'bf\'e4\'c7\'cf\'b4\'d9\'b4\'c2
+\f2  
+\f3 \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\f4\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+1
+\f3\b0 \'b4\'dc\'b0\'e8
+\f2 : 
+\f3 \'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b7\'ce
+\f2  
+\f4\b Generator
+\f3\b0 \'bf\'cd
+\f2  
+\f4\b Discriminator
+\f3\b0 \'b8\'a6
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'bf\'a1\'bc\'ad
+\f2  
+\f4\b latent space
+\f2\b0 (
+\f3 \'b3\'bb\'ba\'ce
+\f2  
+\f3 \'c7\'a5\'c7\'f6
+\f2 )
+\f3 \'bf\'a1\'bc\'ad
+\f2  
+\f4\b image space
+\f2\b0 (
+\f3 \'bd\'c7\'c1\'a6
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6
+\f2 )
+\f3 \'b7\'ce\'c0\'c7
+\f2  
+\f3 \'ba\'af\'c8\'af\'c0\'bb
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\ls4\ilvl0
+\f4\b \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+2
+\f3\b0 \'b4\'dc\'b0\'e8
+\f2 : 
+\f3 \'c5\'d7\'bd\'ba\'c6\'ae
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'c0\'d4\'b7\'c2\'b9\'de\'b0\'ed
+\f2 , 
+\f3 \'b0\'a1\'c0\'e5
+\f2  
+\f3 \'ba\'f1\'bd\'c1\'c7\'d1
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'bb
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'b1\'d7\'b8\'ae\'b0\'ed
+\f2  
+\f3 \'c5\'d7\'bd\'ba\'c6\'ae
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'bf\'cd
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'b5\'c8
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'c0\'c7
+\f2  
+\f3 \'c2\'f7\'c0\'cc\'b8\'a6
+\f2  
+\f3 \'b1\'e2\'b9\'dd\'c0\'b8\'b7\'ce
+\f2  
+\f4\b anomaly score
+\f3\b0 \'b8\'a6
+\f2  
+\f3 \'b0\'e8\'bb\'ea\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3 \cf0 \'c0\'cc
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'c0\'ba
+\f2  
+\f3 \'b5\'ce
+\f4\b  
+\f3\b0 \'b4\'dc\'b0\'e8\'b7\'ce
+\f2  
+\f3 \'c0\'cc\'b7\'e7\'be\'ee\'c1\'ae
+\f2  
+\f3 \'ba\'d2\'b7\'ae
+\f4\b  
+\f3\b0 \'b0\'cb\'c3\'e2\'c0\'bb
+\f2  
+\f3 \'b9\'f8\'b0\'c5\'b7\'d3\'b0\'d4
+\f2  
+\f3 \'b8\'b8\'b5\'ec\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'b5\'fb\'b6\'f3\'bc\'ad
+\f2  
+\f4\b GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f3 \'c0\'cc\'b7\'af\'c7\'d1
+\f2  
+\f3 \'b4\'dc\'c1\'a1\'c0\'bb
+\f2  
+\f3 \'c7\'d8\'b0\'e1\'c7\'cf\'b1\'e2
+\f2  
+\f3 \'c0\'a7\'c7\'d8
+\f2  
+\f4\b 1
+\f3\b0 \'b4\'dc\'b0\'e8\'b7\'ce
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'b5\'b5\'b7\'cf
+\f2  
+\f3 \'bc\'b3\'b0\'e8\'b5\'c7\'be\'fa\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f4\b\fs28 \cf0 2-1. GANomaly
+\f3\b0 \'bf\'cd
+\f4\b  AnoGAN
+\f3\b0 \'c0\'c7
+\f4\b  
+\f3\b0 \'ba\'f1\'b1\'b3
+\f4\b \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f4\b 1
+\f3\b0 \'b4\'dc\'b0\'e8
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c0\'b8\'b7\'ce
+\f2  
+\f4\b Anomaly Score
+\f3\b0 \'b8\'a6
+\f2  
+\f3 \'c1\'f7\'c1\'a2
+\f2  
+\f3 \'c3\'f8\'c1\'a4\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'bb
+\f2  
+\f3 \'c1\'a6\'be\'c8\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f4\b AnoGAN
+\f3\b0 \'b0\'fa
+\f2  
+\f3 \'b8\'b6\'c2\'f9\'b0\'a1\'c1\'f6\'b7\'ce
+\f2  
+\f4\b GAN
+\f2\b0 (Generative Adversarial Network) 
+\f3 \'b1\'b8\'c1\'b6\'b8\'a6
+\f2  
+\f3 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9
+\f2  
+\f4\b Anomaly Detection
+\f3\b0 \'c0\'bb
+\f2  
+\f3 \'bc\'f6\'c7\'e0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'b7\'d0\'c0\'cc\'b1\'e2
+\f2  
+\f3 \'b6\'a7\'b9\'ae\'bf\'a1
+\f2  
+\f4\b GANomaly
+\f3\b0 \'b6\'f3\'b4\'c2
+\f2  
+\f3 \'c0\'cc\'b8\'a7\'c0\'cc
+\f2  
+\f3 \'ba\'d9\'bf\'a9\'c1\'b3\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+
+\f4\b AnoGAN
+\f3\b0 \'b0\'fa
+\f2  
+\f4\b GANomaly
+\f3\b0 \'c0\'c7
+\f2  
+\f3 \'c2\'f7\'c0\'cc\'c1\'a1\'c0\'ba
+\f2  
+\f3 \'c7\'d0\'bd\'c0
+\f4\b  
+\f3\b0 \'b0\'fa\'c1\'a4\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'b8\'ed\'c8\'ae\'c7\'cf\'b0\'d4
+\f2  
+\f3 \'b5\'e5\'b7\'af\'b3\'b3\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'be\'c6\'b7\'a1\'b4\'c2
+\f2  
+\f3 \'b5\'ce
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'c7
+\f2  
+\f3 \'c2\'f7\'c0\'cc\'b8\'a6
+\f2  
+\f3 \'b0\'a3\'b4\'dc\'c8\'f7
+\f2  
+\f3 \'ba\'f1\'b1\'b3\'c7\'d1
+\f2  
+\f3 \'b3\'bb\'bf\'eb\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 :\
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f4\b \cf0 AnoGAN
+\f3\b0 \'c0\'c7
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0
+\f4\b  
+\f3\b0 \'b0\'fa\'c1\'a4
+\f4\b :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}
+\f3\b0 \expnd0\expndtw0\kerning0
+\'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9
+\f2  
+\f4\b GAN
+\f3\b0 \'c0\'bb
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc\'b6\'a7
+\f2  
+\f4\b Generator
+\f3\b0 \'b4\'c2
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'c0\'c7
+\f2  **
+\f3 \'ba\'d0\'c6\'f7
+\f2 (distribution)**
+\f3 \'b8\'a6
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	2	}
+\f3 \expnd0\expndtw0\kerning0
+\'c5\'d7\'bd\'ba\'c6\'ae
+\f2  
+\f3 \'b4\'dc\'b0\'e8\'bf\'a1\'bc\'ad
+\f2 , 
+\f3 \'c0\'d4\'b7\'c2\'b9\'de\'c0\'ba
+\f4\b  
+\f3\b0 \'c5\'d7\'bd\'ba\'c6\'ae
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'bf\'cd
+\f2  
+\f3 \'b0\'a1\'c0\'e5
+\f2  
+\f3 \'c0\'af\'bb\'e7\'c7\'d1
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'cf\'b0\'ed
+\f2 , 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b5\'d1\'c0\'c7
+\f2  
+\f3 \'c2\'f7\'c0\'cc\'b8\'a6
+\f2  
+\f4\b anomaly score
+\f3\b0 \'b7\'ce
+\f2  
+\f3 \'c3\'f8\'c1\'a4\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c2\'f7\'c0\'cc\'b0\'a1
+\f2  
+\f3 \'c5\'a9\'b8\'e9
+\f2  
+\f3 \'ba\'d2\'b7\'ae\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'c6\'c7\'b4\'dc\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f4\b \cf0 GANomaly
+\f3\b0 \'c0\'c7
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0
+\f4\b  
+\f3\b0 \'b0\'fa\'c1\'a4
+\f4\b :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f4\b AnoGAN
+\f3\b0 \'bf\'a1\'bc\'ad\'c0\'c7
+\f2  
+\f4\b 2
+\f3\b0 \'b4\'dc\'b0\'e8
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c0\'c7
+\f2  
+\f3 \'b9\'ae\'c1\'a6\'b8\'a6
+\f2  
+\f3 \'c7\'d8\'b0\'e1\'c7\'cf\'b1\'e2
+\f2  
+\f3 \'c0\'a7\'c7\'d8
+\f2 , 
+\f4\b 1
+\f3\b0 \'b4\'dc\'b0\'e8\'b7\'ce
+\f2  
+\f3 \'b9\'d9\'b7\'ce
+\f2  
+\f4\b anomaly score
+\f3\b0 \'b8\'a6
+\f2  
+\f3 \'c3\'f8\'c1\'a4\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'b5\'b5\'b7\'cf
+\f2  
+\f3 \'b1\'b8\'c1\'b6\'b8\'a6
+\f2  
+\f3 \'ba\'af\'b0\'e6\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\ls6\ilvl0
+\f4\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+AnoGAN
+\f3\b0 \'bf\'a1\'bc\'ad\'b4\'c2
+\f2  
+\f4\b x 
+\f5 \uc0\u8594 
+\f4  z
+\f2\b0 (
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6
+\f2  
+\f3 \'b0\'f8\'b0\'a3\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c0\'e1\'c0\'e7
+\f2  
+\f3 \'b0\'f8\'b0\'a3\'c0\'b8\'b7\'ce\'c0\'c7
+\f2  
+\f3 \'ba\'af\'c8\'af
+\f2 )
+\f3 \'bf\'cd
+\f2  
+\f4\b z 
+\f5 \uc0\u8594 
+\f4  x
+\f2\b0 (
+\f3 \'c0\'e1\'c0\'e7
+\f2  
+\f3 \'b0\'f8\'b0\'a3\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6
+\f2  
+\f3 \'b0\'f8\'b0\'a3\'c0\'b8\'b7\'ce\'c0\'c7
+\f2  
+\f3 \'ba\'af\'c8\'af
+\f2 )
+\f3 \'c0\'cc\'b6\'f3\'b4\'c2
+\f2  
+\f3 \'b5\'ce
+\f2  
+\f3 \'b4\'dc\'b0\'e8\'b8\'a6
+\f2  
+\f3 \'b5\'fb\'b7\'ce
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d8\'be\'df
+\f2  
+\f3 \'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c7\'cf\'c1\'f6\'b8\'b8
+\f2  
+\f4\b GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f4\b x 
+\f5 \uc0\u8594 
+\f4  z
+\f3\b0 \'bf\'cd
+\f2  
+\f4\b z 
+\f5 \uc0\u8594 
+\f4  x
+\f2\b0  
+\f3 \'b8\'c5\'c7\'ce\'c0\'bb
+\f2  
+\f3 \'c1\'f7\'b7\'c4\'b7\'ce
+\f2  
+\f3 \'bf\'ac\'b0\'e1\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'c7\'cf\'b3\'aa\'c0\'c7
+\f4\b  
+\f3\b0 \'b4\'dc\'b0\'e8\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'b5\'bf\'bd\'c3\'bf\'a1
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'b0\'d4
+\f2  
+\f3 \'b8\'b8\'b5\'e9\'be\'fa\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f3 \expnd0\expndtw0\kerning0
+\'c0\'cc\'b8\'a6
+\f2  
+\f3 \'c5\'eb\'c7\'d8
+\f2  
+\f4\b GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f3 \'b5\'ce
+\f4\b  
+\f3\b0 \'b4\'dc\'b0\'e8\'b7\'ce
+\f2  
+\f3 \'b3\'aa\'b4\'a9\'c1\'f6
+\f2  
+\f3 \'be\'ca\'b0\'ed
+\f2  
+\f3 \'c7\'d1
+\f4\b  
+\f3\b0 \'b9\'f8\'bf\'a1
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c7\'cf\'b8\'e7
+\f2 , 
+\f4\b anomaly score
+\f3\b0 \'b8\'a6
+\f2  
+\f3 \'b9\'d9\'b7\'ce
+\f2  
+\f3 \'b0\'e8\'bb\'ea\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3 \cf0 \'b0\'e1\'b7\'d0\'c0\'fb\'c0\'b8\'b7\'ce
+\f2 , 
+\f4\b GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f4\b AnoGAN
+\f3\b0 \'bf\'a1\'bc\'ad\'c0\'c7
+\f2  
+\f3 \'ba\'b9\'c0\'e2\'c7\'d1
+\f2  
+\f4\b 2
+\f3\b0 \'b4\'dc\'b0\'e8
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'c0\'bb
+\f2  
+\f4\b 1
+\f3\b0 \'b4\'dc\'b0\'e8\'b7\'ce
+\f2  
+\f3 \'c5\'eb\'c7\'d5\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'b0\'fa
+\f4\b  
+\f3\b0 \'b0\'cb\'c3\'e2\'c0\'bb
+\f4\b  
+\f3\b0 \'b0\'a3\'bc\'d2\'c8\'ad\'c7\'d1
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'bb
+\f2  
+\f3 \'c1\'a6\'bd\'c3\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\b \cf0 AnoGAN
+\f3\b0 \'bf\'a1\'bc\'ad
+\f2  
+\f4\b 2
+\f3\b0 \'b4\'dc\'b0\'e8
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c0\'cc
+\f2  
+\f3 \'c7\'ca\'bf\'e4\'c7\'d1
+\f2  
+\f3 \'c0\'cc\'c0\'af\'b4\'c2
+\f2 , 
+\f3 \'c0\'d4\'b7\'c2
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'bf\'cd
+\f4\b  
+\f3\b0 \'b0\'a1\'c0\'e5
+\f4\b  
+\f3\b0 \'c0\'af\'bb\'e7\'c7\'d1
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f4\b  
+\f3\b0 \'bb\'fd\'bc\'ba\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'b5\'ce
+\f4\b  
+\f3\b0 \'b0\'a1\'c1\'f6
+\f4\b  
+\f3\b0 \'b8\'c5\'c7\'ce\'c0\'bb
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c7\'d8\'be\'df
+\f4\b  
+\f3\b0 \'c7\'cf\'b1\'e2
+\f4\b  
+\f3\b0 \'b6\'a7\'b9\'ae\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'da\'bc\'bc\'c8\'f7
+\f2  
+\f3 \'bc\'b3\'b8\'ed\'b5\'e5\'b8\'ae\'b0\'da\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f4\b\fs28 \cf0 1. x 
+\f5 \uc0\u8594 
+\f4  z 
+\f3\b0 \'b8\'c5\'c7\'ce
+\f4\b  (
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6
+\f4\b  
+\f5 \uc0\u8594 
+\f4  
+\f3\b0 \'c0\'e1\'c0\'e7
+\f4\b  
+\f3\b0 \'b0\'f8\'b0\'a3
+\f4\b )\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 AnoGAN
+\f3\b0 \'c0\'ba
+\f2  
+\f4\b GAN(Generative Adversarial Network)
+\f2\b0  
+\f3 \'b1\'b8\'c1\'b6\'b8\'a6
+\f2  
+\f3 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . GAN
+\f3 \'bf\'a1\'b4\'c2
+\f2  
+\f3 \'b5\'ce
+\f2  
+\f3 \'b0\'a1\'c1\'f6
+\f2  
+\f3 \'c1\'d6\'bf\'e4
+\f2  
+\f3 \'b1\'b8\'bc\'ba
+\f2  
+\f3 \'bf\'e4\'bc\'d2\'b0\'a1
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls7\ilvl0
+\f4\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Generator (
+\f3\b0 \'bb\'fd\'bc\'ba\'c0\'da
+\f4\b )
+\f2\b0 : 
+\f3 \'b9\'ab\'c0\'db\'c0\'a7\'b7\'ce
+\f2  
+\f3 \'c0\'e1\'c0\'e7
+\f2  
+\f3 \'b0\'f8\'b0\'a3
+\f2 (z)
+\f3 \'bf\'a1\'bc\'ad
+\f2  
+\f3 \'bb\'f9\'c7\'c3\'c0\'bb
+\f2  
+\f3 \'bb\'cc\'be\'c6
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'bf\'aa\'c7\'d2
+\f2 .\
+\ls7\ilvl0
+\f4\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Discriminator (
+\f3\b0 \'c6\'c7\'ba\'b0\'c0\'da
+\f4\b )
+\f2\b0 : 
+\f3 \'bb\'fd\'bc\'ba\'b5\'c8
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b0\'a1
+\f2  
+\f3 \'c1\'f8\'c2\'a5\'c0\'ce\'c1\'f6
+\f2  
+\f3 \'b0\'a1\'c2\'a5\'c0\'ce\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'c6\'c7\'ba\'b0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'bf\'aa\'c7\'d2
+\f2 .\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\b \cf0 AnoGAN
+\f3\b0 \'c0\'ba
+\f2  
+\f3 \'c1\'a4\'bb\'f3
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'b8\'c0\'bb
+\f2  
+\f3 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9
+\f2  GAN
+\f3 \'c0\'bb
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'bd\'c3\'c5\'b5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc\'b8\'a6
+\f2  
+\f3 \'c5\'eb\'c7\'d8
+\f2  **
+\f3 \'c1\'a4\'bb\'f3
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'c0\'c7
+\f2  
+\f3 \'ba\'d0\'c6\'f7
+\f2 (distribution)**
+\f3 \'b8\'a6
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'cf\'b0\'d4
+\f2  
+\f3 \'b5\'c7\'b4\'c2\'b5\'a5
+\f2 , 
+\f3 \'c0\'cc\'b6\'a7
+\f2  
+\f4\b Generator
+\f3\b0 \'b4\'c2
+\f2  
+\f3 \'c0\'e1\'c0\'e7
+\f2  
+\f3 \'b0\'f8\'b0\'a3
+\f2  
+\f4\b z
+\f3\b0 \'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'bb
+\f2  
+\f3 \'b9\'e8\'bf\'ec\'b0\'ed
+\f2 , 
+\f4\b Discriminator
+\f3\b0 \'b4\'c2
+\f2  
+\f3 \'bd\'c7\'c1\'a6\'bf\'cd
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'b5\'c8
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'b1\'b8\'ba\'d0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'c0\'bb
+\f2  
+\f3 \'b9\'e8\'bf\'ec\'b0\'d4
+\f2  
+\f3 \'b5\'cb\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b4\'dc\'b0\'e8\'bf\'a1\'bc\'ad\'b4\'c2
+\f2  
+\f4\b x 
+\f5 \uc0\u8594 
+\f4  z
+\f2\b0  
+\f3 \'b8\'c5\'c7\'ce
+\f2 (
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c0\'e1\'c0\'e7
+\f2  
+\f3 \'b0\'f8\'b0\'a3\'c0\'b8\'b7\'ce\'c0\'c7
+\f2  
+\f3 \'ba\'af\'c8\'af
+\f2 )
+\f3 \'c0\'bb
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f4\b\fs28 \cf0 2. z 
+\f5 \uc0\u8594 
+\f4  x 
+\f3\b0 \'b8\'c5\'c7\'ce
+\f4\b  (
+\f3\b0 \'c0\'e1\'c0\'e7
+\f4\b  
+\f3\b0 \'b0\'f8\'b0\'a3
+\f4\b  
+\f5 \uc0\u8594 
+\f4  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6
+\f4\b )\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b0\fs24 \cf0 \'c0\'cc\'c1\'a6
+\f2  
+\f3 \'c5\'d7\'bd\'ba\'c6\'ae
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b0\'a1
+\f2  
+\f3 \'b5\'e9\'be\'ee\'bf\'c0\'b8\'e9
+\f2 , 
+\f4\b Generator
+\f3\b0 \'b4\'c2
+\f2  
+\f3 \'c0\'cc
+\f2  
+\f3 \'c0\'d4\'b7\'c2
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'b1\'e2\'b9\'dd\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'b0\'a1\'c0\'e5
+\f2  
+\f3 \'c0\'af\'bb\'e7\'c7\'d1
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'cf\'b7\'c1\'b0\'ed
+\f2  
+\f3 \'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c7\'cf\'c1\'f6\'b8\'b8
+\f2  
+\f3 \'c0\'cc
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'c0\'ba
+\f2  
+\f3 \'b4\'dc\'bc\'f8\'c8\'f7
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f4\b  
+\f3\b0 \'bb\'fd\'bc\'ba\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b0\'cd\'c0\'cc
+\f2  
+\f3 \'be\'c6\'b4\'cf\'b0\'ed
+\f2 , 
+\f3 \'c0\'d4\'b7\'c2
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b0\'a1
+\f4\b  
+\f3\b0 \'c0\'e1\'c0\'e7
+\f4\b  
+\f3\b0 \'b0\'f8\'b0\'a3\'bf\'a1\'bc\'ad
+\f4\b  
+\f3\b0 \'be\'ee\'b6\'b2
+\f4\b  
+\f3\b0 \'c0\'a7\'c4\'a1\'bf\'a1
+\f4\b  
+\f3\b0 \'c7\'d8\'b4\'e7\'c7\'cf\'b4\'c2\'c1\'f6
+\f2 (
+\f3 \'c1\'ef
+\f2 , 
+\f4\b x 
+\f5 \uc0\u8594 
+\f4  z
+\f2\b0  
+\f3 \'b8\'c5\'c7\'ce
+\f2 )
+\f3 \'b8\'a6
+\f2  
+\f3 \'c3\'a3\'be\'c6\'be\'df
+\f2  
+\f3 \'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'b1\'d7\'b7\'b1
+\f2  
+\f3 \'c8\'c4\'bf\'a1
+\f2  
+\f3 \'b1\'d7
+\f2  
+\f3 \'c0\'a7\'c4\'a1\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'d8\'be\'df
+\f2  
+\f3 \'c7\'cf\'b9\'c7\'b7\'ce
+\f2 , 
+\f4\b z 
+\f5 \uc0\u8594 
+\f4  x
+\f2\b0  
+\f3 \'b8\'c5\'c7\'ce\'b5\'b5
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d8\'be\'df
+\f2  
+\f3 \'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+
+\f3 \'b5\'fb\'b6\'f3\'bc\'ad
+\f2  
+\f4\b AnoGAN
+\f3\b0 \'c0\'ba
+\f2  
+\f3 \'c0\'d4\'b7\'c2
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'bf\'a1\'bc\'ad
+\f4\b  
+\f3\b0 \'c0\'e1\'c0\'e7
+\f4\b  
+\f3\b0 \'b0\'f8\'b0\'a3\'c0\'b8\'b7\'ce
+\f4\b  
+\f3\b0 \'ba\'af\'c8\'af\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'b0\'fa
+\f2 , 
+\f3 \'b1\'d7
+\f2  
+\f3 \'ba\'af\'c8\'af\'b5\'c8
+\f2  
+\f3 \'c0\'e1\'c0\'e7
+\f2  
+\f3 \'b0\'f8\'b0\'a3\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f4\b  
+\f3\b0 \'bb\'fd\'bc\'ba\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b5\'ce
+\f2  
+\f3 \'b4\'dc\'b0\'e8\'b8\'a6
+\f2  
+\f3 \'b5\'fb\'b7\'ce
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d8\'be\'df
+\f2  
+\f3 \'c7\'cf\'b9\'c7\'b7\'ce
+\f2 , 
+\f4\b 2
+\f3\b0 \'b4\'dc\'b0\'e8
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c0\'cc
+\f2  
+\f3 \'c7\'ca\'bf\'e4\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f3\fs28 \cf0 \'b9\'ae\'c1\'a6\'c1\'a1
+\f4\b \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls8\ilvl0
+\fs24 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+2
+\f3\b0 \'b4\'dc\'b0\'e8
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c0\'ba
+\f2  
+\f3 \'b9\'f8\'b0\'c5\'b7\'d3\'b0\'ed
+\f2  
+\f3 \'bd\'c3\'b0\'a3\'c0\'cc
+\f2  
+\f3 \'b8\'b9\'c0\'cc
+\f2  
+\f3 \'bc\'d2\'bf\'e4\'b5\'cb\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls8\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f3 \expnd0\expndtw0\kerning0
+\'c3\'b9
+\f2  
+\f3 \'b9\'f8\'c2\'b0
+\f2  
+\f3 \'b4\'dc\'b0\'e8\'bf\'a1\'bc\'ad
+\f2  
+\f4\b x 
+\f5 \uc0\u8594 
+\f4  z
+\f2\b0  
+\f3 \'b8\'c5\'c7\'ce\'c0\'bb
+\f2  
+\f3 \'c3\'a3\'b0\'ed
+\f2 , 
+\f3 \'b5\'ce
+\f2  
+\f3 \'b9\'f8\'c2\'b0
+\f2  
+\f3 \'b4\'dc\'b0\'e8\'bf\'a1\'bc\'ad
+\f2  
+\f4\b z 
+\f5 \uc0\u8594 
+\f4  x
+\f2\b0  
+\f3 \'b8\'c5\'c7\'ce\'c0\'bb
+\f2  
+\f3 \'c3\'a3\'b4\'c2
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'c0\'cc
+\f2  
+\f3 \'ba\'b9\'c0\'e2\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'ba\'d2\'b7\'ae
+\f4\b  
+\f3\b0 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6
+\f4\b  
+\f3\b0 \'c5\'bd\'c1\'f6\'c7\'cf\'b4\'c2
+\f4\b  
+\f3\b0 \'b5\'a5
+\f4\b  
+\f3\b0 \'c8\'bf\'c0\'b2\'c0\'fb\'c0\'cc\'c1\'f6
+\f4\b  
+\f3\b0 \'be\'ca\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3 \cf0 \'c0\'cc
+\f2  
+\f3 \'b6\'a7\'b9\'ae\'bf\'a1
+\f2 , 
+\f4\b GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f3 \'c0\'cc
+\f2  
+\f3 \'b5\'ce
+\f2  
+\f3 \'b4\'dc\'b0\'e8\'b8\'a6
+\f2  
+\f3 \'c7\'cf\'b3\'aa\'b7\'ce
+\f2  
+\f3 \'c5\'eb\'c7\'d5\'c7\'cf\'bf\'a9
+\f2  
+\f4\b 1
+\f3\b0 \'b4\'dc\'b0\'e8
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'b9\'ae\'c1\'a6\'b8\'a6
+\f2  
+\f3 \'c7\'d8\'b0\'e1\'c7\'cf\'b7\'c1\'b0\'ed
+\f2  
+\f3 \'c7\'d1
+\f2  
+\f3 \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f3\fs28 \cf0 \'bf\'d6
+\f4\b  GANomaly
+\f3\b0 \'bf\'a1\'bc\'ad
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f4\b  
+\f3\b0 \'c1\'f7\'c1\'a2
+\f4\b  
+\f3\b0 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2
+\f4\b  
+\f3\b0 \'b4\'eb\'bd\'c5
+\f4\b  
+\f3\b0 \'be\'d0\'c3\'e0
+\f4\b  
+\f3\b0 \'c1\'a4\'ba\'b8\'b8\'a6
+\f4\b  
+\f3\b0 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2\'b0\'a1
+\f4\b ?\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b0\fs24 \cf0 \'c0\'cc\'b9\'cc\'c1\'f6
+\f2  
+\f3 \'c0\'da\'c3\'bc\'b4\'c2
+\f2  
+\f3 \'b0\'ed\'c2\'f7\'bf\'f8
+\f4\b  
+\f3\b0 \'c1\'a4\'ba\'b8\'b7\'ce
+\f2 , 
+\f3 \'b8\'b9\'c0\'ba
+\f2  
+\f3 \'c7\'c8\'bc\'bf
+\f4\b  
+\f3\b0 \'b0\'aa\'c0\'bb
+\f2  
+\f3 \'c6\'f7\'c7\'d4\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b8\'b9\'c0\'ba
+\f2  
+\f3 \'b5\'a5\'c0\'cc\'c5\'cd\'b4\'c2
+\f2  
+\f3 \'b3\'eb\'c0\'cc\'c1\'ee\'b0\'a1
+\f2  
+\f3 \'b8\'b9\'be\'c6
+\f2 , 
+\f3 \'c0\'db\'c0\'ba
+\f2  
+\f3 \'ba\'af\'c8\'ad\'bf\'a1\'b5\'b5
+\f2  
+\f3 \'b9\'ce\'b0\'a8\'c7\'cf\'b0\'d4
+\f2  
+\f3 \'b9\'dd\'c0\'c0\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'bf\'b9\'b8\'a6
+\f2  
+\f3 \'b5\'e9\'be\'ee
+\f2 , 
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c1\'df\'bf\'e4\'c7\'d1
+\f2  
+\f3 \'c1\'a4\'ba\'b8\'c0\'ce
+\f2  
+\f3 \'bb\'d4\'c0\'bb
+\f2  
+\f3 \'c0\'df
+\f2  
+\f3 \'c0\'ce\'bd\'c4\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'c1\'f6\'b8\'b8
+\f2 , 
+\f3 \'b9\'e8\'b0\'e6\'c0\'c7
+\f2  
+\f3 \'ba\'d2\'c7\'ca\'bf\'e4\'c7\'d1
+\f4\b  
+\f3\b0 \'c1\'a1
+\f2  
+\f3 \'b0\'b0\'c0\'ba
+\f2  
+\f3 \'b3\'eb\'c0\'cc\'c1\'ee\'b1\'ee\'c1\'f6
+\f2  
+\f3 \'bd\'c5\'b0\'e6
+\f2  
+\f3 \'be\'b5
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c4\'c4\'c7\'bb\'c5\'cd\'b4\'c2
+\f2  
+\f3 \'c0\'cc
+\f2  
+\f3 \'b8\'f0\'b5\'e7
+\f2  
+\f3 \'c7\'c8\'bc\'bf\'c0\'bb
+\f2  
+\f3 \'b4\'d9
+\f2  
+\f3 \'c3\'b3\'b8\'ae\'c7\'d8\'be\'df
+\f2  
+\f3 \'c7\'cf\'b1\'e2
+\f2  
+\f3 \'b6\'a7\'b9\'ae\'bf\'a1
+\f2  
+\f3 \'ba\'d2\'c7\'ca\'bf\'e4\'c7\'d1
+\f2  
+\f3 \'c1\'a4\'ba\'b8\'b5\'b5
+\f2  
+\f3 \'b0\'ed\'b7\'c1\'c7\'cf\'b0\'d4
+\f2  
+\f3 \'b5\'cb\'b4\'cf\'b4\'d9
+\f2 .\
+
+\f3 \'b9\'dd\'b8\'e9
+\f2 , 
+\f3 \'be\'d0\'c3\'e0
+\f4\b  
+\f3\b0 \'c1\'a4\'ba\'b8\'b4\'c2
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'c0\'c7
+\f2  
+\f3 \'c7\'d9\'bd\'c9\'c0\'fb\'c0\'ce
+\f4\b  
+\f3\b0 \'c6\'af\'c2\'a1\'b8\'b8
+\f2  
+\f3 \'b4\'e3\'b0\'ed
+\f2  
+\f3 \'c0\'d6\'be\'ee
+\f2  
+\f3 \'b4\'f5
+\f2  
+\f3 \'c8\'bf\'c0\'b2\'c0\'fb\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'c6\'c7\'b4\'dc\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'be\'d0\'c3\'e0\'b5\'c8
+\f2  
+\f3 \'c1\'a4\'ba\'b8\'b4\'c2
+\f2  
+\f3 \'c1\'df\'bf\'e4\'c7\'d1
+\f4\b  
+\f3\b0 \'c0\'c7\'b9\'cc\'b8\'b8
+\f4\b  
+\f3\b0 \'b4\'e3\'b0\'ed
+\f2  
+\f3 \'b3\'aa\'b8\'d3\'c1\'f6
+\f2  
+\f3 \'b3\'eb\'c0\'cc\'c1\'ee\'b4\'c2
+\f2  
+\f3 \'c1\'a6\'b0\'c5\'b5\'c7\'b9\'c7\'b7\'ce
+\f2 , 
+\f3 \'c6\'c7\'b4\'dc\'c7\'cf\'b1\'e2
+\f2  
+\f3 \'bd\'ac\'bf\'f6\'c1\'f6\'b0\'ed
+\f2  
+\f3 \'ba\'d2\'c7\'ca\'bf\'e4\'c7\'d1
+\f4\b  
+\f3\b0 \'bf\'e4\'bc\'d2\'bf\'a1
+\f4\b  
+\f3\b0 \'bf\'b5\'c7\'e2\'c0\'bb
+\f4\b  
+\f3\b0 \'b4\'fa
+\f4\b  
+\f3\b0 \'b9\'de\'b0\'d4
+\f2  
+\f3 \'b5\'cb\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'b1\'d7\'b7\'a1\'bc\'ad
+\f2  
+\f4\b GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'c1\'f7\'c1\'a2
+\f2  
+\f3 \'ba\'d0\'bc\'ae\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b4\'eb\'bd\'c5
+\f2 , 
+\f3 \'be\'d0\'c3\'e0\'b5\'c8
+\f4\b  
+\f3\b0 \'c1\'a4\'ba\'b8\'b8\'a6
+\f2  
+\f3 \'b1\'e2\'b9\'dd\'c0\'b8\'b7\'ce
+\f2  
+\f4\b anomal score
+\f3\b0 \'b8\'a6
+\f2  
+\f3 \'b0\'e8\'bb\'ea\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f4\b\fs28 \cf0 GANomaly
+\f3\b0 \'c0\'c7
+\f4\b  
+\f3\b0 \'b1\'b8\'c1\'b6
+\f4\b \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\b0\fs24 \cf0 GANomaly
+\f3 \'c0\'c7
+\f2  
+\f3 \'b1\'b8\'c1\'b6\'b4\'c2
+\f2  
+\f3 \'c5\'a9\'b0\'d4
+\f2  
+\f3 \'bc\'bc
+\f2  
+\f3 \'b0\'a1\'c1\'f6\'b7\'ce
+\f2  
+\f3 \'b3\'aa\'b4\'ad
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls9\ilvl0
+\f4\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Auto Encoder
+\f2\b0 :\uc0\u8232 
+\f3 \'c0\'d4\'b7\'c2
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f4\b z
+\f3\b0 \'b7\'ce
+\f4\b  
+\f3\b0 \'be\'d0\'c3\'e0\'c7\'cf\'b0\'ed
+\f2 , 
+\f3 \'b4\'d9\'bd\'c3
+\f2  
+\f3 \'ba\'b9\'bf\'f8\'c7\'cf\'bf\'a9
+\f2  **x^**
+\f3 \'b8\'a6
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b1\'b8\'c1\'b6\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'c0\'ba
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6
+\f4\b  
+\f5 \uc0\u8594 
+\f4  
+\f3\b0 \'be\'d0\'c3\'e0\'b5\'c8
+\f4\b  
+\f3\b0 \'c1\'a4\'ba\'b8\'bf\'cd
+\f2  
+\f3 \'be\'d0\'c3\'e0\'b5\'c8
+\f4\b  
+\f3\b0 \'c1\'a4\'ba\'b8
+\f4\b  
+\f5 \uc0\u8594 
+\f4  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'ba\'af\'c8\'af\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b9\'e6\'bd\'c4\'c0\'b8\'b7\'ce
+\f2  
+\f3 \'c1\'f8\'c7\'e0\'b5\'cb\'b4\'cf\'b4\'d9
+\f2 .\
+\ls9\ilvl0
+\f4\b \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+Encoder
+\f2\b0 :\uc0\u8232 Auto Encoder
+\f3 \'b8\'a6
+\f2  
+\f3 \'c5\'eb\'c7\'d8
+\f2  
+\f3 \'ba\'b9\'bf\'f8\'b5\'c8
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6
+\f2  **x^**
+\f3 \'b8\'a6
+\f2  
+\f3 \'b4\'d9\'bd\'c3
+\f2  
+\f4\b latent space
+\f3\b0 \'b7\'ce
+\f2  
+\f3 \'be\'d0\'c3\'e0\'c7\'cf\'bf\'a9
+\f2  **z^**
+\f3 \'b7\'ce
+\f2  
+\f3 \'ba\'af\'c8\'af\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b4\'dc\'b0\'e8\'b4\'c2
+\f2  
+\f3 \'be\'d0\'c3\'e0\'b5\'c8
+\f2  
+\f3 \'c1\'a4\'ba\'b8\'c0\'c7
+\f2  
+\f3 \'ba\'af\'c8\'af\'c0\'bb
+\f2  
+\f3 \'c0\'c7\'b9\'cc\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\ls9\ilvl0
+\f4\b \kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+Discriminator
+\f2\b0 :\uc0\u8232 
+\f3 \'b1\'e2\'c1\'b8\'c0\'c7
+\f2  GAN
+\f3 \'bf\'a1\'bc\'ad
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'b5\'c8
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'bf\'cd
+\f2  
+\f3 \'bd\'c7\'c1\'a6
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f4\b  
+\f3\b0 \'b1\'b8\'ba\'d0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'bf\'aa\'c7\'d2\'c0\'bb
+\f2  
+\f3 \'c7\'cf\'b4\'c2
+\f2  
+\f4\b Discriminator
+\f3\b0 \'b4\'c2
+\f2  GANomaly
+\f3 \'bf\'a1\'bc\'ad\'b4\'c2
+\f2  **
+\f3 \'c6\'af\'c2\'a1
+\f2  
+\f3 \'c3\'df\'c3\'e2\'b1\'e2
+\f2 (feature extractor)**
+\f3 \'b7\'ce\'bc\'ad\'c0\'c7
+\f2  
+\f3 \'bf\'aa\'c7\'d2\'c0\'bb
+\f2  
+\f3 \'c7\'d5\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'d4\'b7\'c2
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'bf\'cd
+\f2  
+\f3 \'bb\'fd\'bc\'ba\'b5\'c8
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'c1\'df\'bf\'e4\'c7\'d1
+\f2  
+\f3 \'c6\'af\'c2\'a1\'c0\'bb
+\f4\b  
+\f3\b0 \'c3\'df\'c3\'e2\'c7\'cf\'bf\'a9
+\f4\b  
+\f3\b0 \'ba\'f1\'b1\'b3\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'bf\'aa\'c7\'d2\'c0\'bb
+\f2  
+\f3 \'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f4\b\fs28 \cf0 Loss Function\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\b0\fs24 \cf0 GANomaly
+\f3 \'b4\'c2
+\f2  
+\f3 \'bc\'bc
+\f2  
+\f3 \'b0\'a1\'c1\'f6
+\f2  
+\f3 \'c1\'d6\'bf\'e4
+\f2  
+\f4\b Loss Function
+\f3\b0 \'c0\'bb
+\f2  
+\f3 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'b8\'f0\'b5\'a8\'c0\'bb
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls10\ilvl0
+\f4\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Adversarial Loss
+\f2\b0 :\uc0\u8232 
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b3\'a2\'b8\'ae
+\f2 , 
+\f3 \'be\'d0\'c3\'e0\'b5\'c8
+\f2  feature
+\f3 \'b3\'a2\'b8\'ae
+\f2  
+\f3 \'ba\'f1\'bd\'c1\'c7\'d8\'c1\'ae\'b6\'f3
+\f2 \
+\ls10\ilvl0
+\f4\b \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+Contextual Loss
+\f2\b0 :\uc0\u8232 
+\f3 \'c7\'d0\'bd\'c0\'c0\'cc\'b9\'cc\'c1\'f6\'bf\'cd
+\f4\b  
+\f3\b0 \'bb\'fd\'bc\'ba
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6\'b0\'a1
+\f4\b  
+\f3\b0 \'ba\'f1\'bd\'c1\'c7\'d8\'c1\'ae\'b6\'f3
+\f2 \
+\ls10\ilvl0
+\f4\b \kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+Encoder Loss
+\f2\b0 :\uc0\u8232 
+\f3 \'c7\'d0\'bd\'c0\'c0\'cc\'b9\'cc\'c1\'f6
+\f4\b  
+\f3\b0 \'be\'d0\'c3\'e0\'c0\'cc\'b6\'fb
+\f4\b  
+\f3\b0 \'bb\'fd\'bc\'ba
+\f4\b  
+\f3\b0 \'c0\'cc\'b9\'cc\'c1\'f6
+\f4\b  
+\f3\b0 \'be\'d0\'c3\'e0\'c0\'cc
+\f4\b  
+\f3\b0 \'ba\'f1\'bd\'c1\'c7\'d8\'c1\'ae\'b6\'f3
+\f2 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3 \cf0 \'c0\'cc
+\f2  
+\f3 \'bc\'bc
+\f2  
+\f3 \'b0\'a1\'c1\'f6
+\f2  Loss
+\f3 \'b8\'a6
+\f2  
+\f3 \'c1\'be\'c7\'d5\'c7\'cf\'bf\'a9
+\f2  
+\f3 \'c3\'d6\'c1\'be
+\f4\b  Loss Function
+\f3\b0 \'c0\'bb
+\f2  
+\f3 \'b1\'b8\'bc\'ba\'c7\'d5\'b4\'cf\'b4\'d9
+\f2 .\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f4\b\fs28 \cf0 Anomaly Score 
+\f3\b0 \'b0\'e8\'bb\'ea
+\f4\b \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b0\fs24 \cf0 \'c5\'d7\'bd\'ba\'c6\'ae
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'c0\'c7
+\f2  
+\f3 \'be\'d0\'c3\'e0\'b0\'fa
+\f2  
+\f3 \'bb\'fd\'bc\'ba
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'c0\'c7
+\f2  
+\f3 \'be\'d0\'c3\'e0
+\f2  
+\f3 \'c2\'f7\'c0\'cc
+\f2 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f4\b \cf0 GANomaly
+\f3\b0 \'b4\'c2
+\f2  
+\f4\b AnoGAN
+\f3\b0 \'c0\'c7
+\f2  
+\f4\b 2
+\f3\b0 \'b4\'dc\'b0\'e8
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0
+\f4\b  
+\f3\b0 \'b1\'b8\'c1\'b6\'b8\'a6
+\f2  
+\f3 \'b0\'b3\'bc\'b1\'c7\'cf\'bf\'a9
+\f2  
+\f4\b 1
+\f3\b0 \'b4\'dc\'b0\'e8\'b7\'ce
+\f2  
+\f3 \'c7\'d0\'bd\'c0\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'b5\'b5\'b7\'cf
+\f2  
+\f3 \'b8\'b8\'b5\'e7
+\f2  
+\f3 \'b9\'e6\'b9\'fd\'b7\'d0\'c0\'d4\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc\'b8\'a6
+\f2  
+\f3 \'c0\'a7\'c7\'d8
+\f2  
+\f4\b encoder \'96 decoder \'96 encoder
+\f3\b0 \'b6\'f3\'b4\'c2
+\f2  
+\f3 \'bb\'f5\'b7\'ce\'bf\'ee
+\f2  
+\f3 \'b1\'b8\'c1\'b6\'b8\'a6
+\f2  
+\f3 \'b5\'b5\'c0\'d4\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b1\'b8\'c1\'b6\'b4\'c2
+\f2  
+\f3 \'c0\'d4\'b7\'c2
+\f2  
+\f3 \'c0\'cc\'b9\'cc\'c1\'f6\'b8\'a6
+\f2  
+\f3 \'be\'d0\'c3\'e0\'c7\'cf\'b0\'ed
+\f2 (encoder), 
+\f3 \'b4\'d9\'bd\'c3
+\f2  
+\f3 \'ba\'b9\'bf\'f8\'c7\'d1
+\f2  
+\f3 \'c8\'c4
+\f2 (decoder) 
+\f3 \'b4\'d9\'bd\'c3
+\f2  
+\f3 \'be\'d0\'c3\'e0\'c7\'cf\'b4\'c2
+\f2  
+\f3 \'b0\'fa\'c1\'a4\'c0\'bb
+\f2  
+\f3 \'c5\'eb\'c7\'d8
+\f2 , 
+\f3 \'b4\'dc\'b0\'e8\'ba\'b0
+\f4\b  
+\f3\b0 \'c7\'d0\'bd\'c0\'c0\'bb
+\f4\b  
+\f3\b0 \'c7\'cf\'b3\'aa\'b7\'ce
+\f4\b  
+\f3\b0 \'c5\'eb\'c7\'d5\'c7\'d2
+\f2  
+\f3 \'bc\'f6
+\f2  
+\f3 \'c0\'d6\'b0\'d4
+\f2  
+\f3 \'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 . 
+\f3 \'c0\'cc
+\f2  
+\f3 \'b9\'e6\'bd\'c4\'c0\'ba
+\f2  
+\f3 \'b1\'e2\'c1\'b8\'c0\'c7
+\f2  
+\f4\b GAN
+\f3\b0 \'b0\'fa
+\f2  
+\f4\b Auto Encoder
+\f2\b0  
+\f3 \'b1\'e2\'b9\'dd\'c0\'c7
+\f2  
+\f4\b Anomaly Detection
+\f2\b0  
+\f3 \'b9\'e6\'b9\'fd\'b5\'e9
+\f2  
+\f3 \'c1\'df\'bf\'a1\'bc\'ad
+\f2  
+\f3 \'b0\'a1\'c0\'e5
+\f4\b  
+\f3\b0 \'b6\'d9\'be\'ee\'b3\'ad
+\f4\b  
+\f3\b0 \'bc\'ba\'b4\'c9\'c0\'bb
+\f2  
+\f3 \'ba\'b8\'bf\'a9\'c1\'d6\'be\'fa\'bd\'c0\'b4\'cf\'b4\'d9
+\f2 .\
+\
+\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\
+}
